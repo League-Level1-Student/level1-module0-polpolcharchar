@@ -26,11 +26,11 @@ public class PhotoQuiz {
 		// 1. find an image on the internet, and put its URL in a String
 		// variable (from your browser, right click on the image, and select
 		// “Copy Image Address”)
-
+String url = "http://tse2.mm.bing.net/th/id/OIP.Jf0NnGpH2AhNM3BtwZufwwHaJ4?w=131&h=180&c=7&o=5&pid=1.7";
 		// 2. create a variable of type "Component" that will hold your image
-
+Component image = createImage(url);
 		// 3. use the "createImage()" method below to initialize your Component
-
+		
 		// 4. add the image to the quiz window
 
 		// 5. call the pack() method on the quiz window
